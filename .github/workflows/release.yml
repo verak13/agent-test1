@@ -50,7 +50,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn package --file agent-app/pom.xml -DskipTests
-
+        
       - name: Set Up QEMU
         uses: docker/setup-qemu-action@v2
 
